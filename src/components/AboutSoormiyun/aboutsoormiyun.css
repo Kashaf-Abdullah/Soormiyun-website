@@ -1,0 +1,205 @@
+.SoormiyunAbout-Section {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+padding:1.5rem 4.5rem;
+flex-wrap: wrap;
+overflow-x: hidden;
+}
+  
+  .left-soormyunaboutSections {
+    /* margin-top: 7rem; */
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: left; /* Center items horizontally */
+  line-height: 2rem;
+  justify-content: center;
+}
+  .left-soormyunaboutSections h2{
+    font-size: 30px;
+    font-weight: bold;
+    color:var(--wine);
+  }
+.left-soormyunaboutSections .aboutus-heading{
+  font-family: 'ARSENALITALIC';
+}
+.left-soormyunaboutSections .aboutus-subheading{
+  font-family: 'ARSENAL';
+}
+.left-soormyunaboutSections .aboutus-paragraph{
+  font-family: 'arsenal';
+}
+  .left-soormyunaboutSections span:nth-of-type(3){
+    font-size: 12px;
+    ;
+  }
+  
+  
+/* CSS */
+.button-6 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: var(--wine);
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content:flex-start;
+  line-height: 1.25;
+  margin: 1rem 0 1rem 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+  .right-soormyunaboutSections {
+
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  
+  .right-soormyunaboutSections img {
+    width: 23rem;
+  height: 22rem;
+  border-radius: 14px;
+
+  }
+  .img2-Symptoms img{
+    margin-top:11rem;
+  }
+  
+
+
+  @media screen and (max-width:1394px){
+.left-soormyunaboutSections{
+  width:20%;
+}
+.left-soormyunaboutSections h2{
+  font-size: 24px;
+}
+    .right-soormyunaboutSections {
+
+      display: flex;
+      flex-direction: row;
+      width: 80%;
+      justify-content: center; /* Center items horizontally */
+    }
+    
+    
+  }
+
+
+
+
+
+  
+
+  @media screen and (max-width:1077px){
+    .left-soormyunaboutSections{
+      width:35%;
+    }
+    .left-soormyunaboutSections h2{
+      font-size: 24px;
+    }
+        .right-soormyunaboutSections {
+    
+          display: flex;
+          flex-direction: row;
+          width: 65%;
+          justify-content: center; /* Center items horizontally */
+        }
+        
+       
+  .right-soormyunaboutSections img {
+    width: 16rem;
+    height: 16rem;
+  } 
+      }
+
+
+      
+  @media screen and (max-width:792px){
+    .left-soormyunaboutSections{
+      width:50%;
+    }
+    .left-soormyunaboutSections h2{
+      font-size: 24px;
+    }
+        .right-soormyunaboutSections {
+    
+          display: flex;
+          flex-direction: row;
+          width: 50%;
+          justify-content: center; /* Center items horizontally */
+        }
+        
+       
+  .right-soormyunaboutSections img {
+    width: 11rem;
+    height: 11rem;
+  } 
+      }
+
+
+
+
+      
+  @media screen and (max-width:692px){
+    .SoormiyunAbout-Section {
+      
+  padding:1.5rem 2.5rem;
+
+  }
+    .left-soormyunaboutSections{
+      width:100%;
+    }
+    .left-soormyunaboutSections h2{
+      font-size: 24px;
+    }
+        .right-soormyunaboutSections {
+    
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          justify-content: center; /* Center items horizontally */
+        }
+        
+       
+  .right-soormyunaboutSections img {
+    width: 12rem;
+    height: 12rem;
+  } 
+      }
+

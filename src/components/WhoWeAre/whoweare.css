@@ -1,0 +1,71 @@
+.Whoweare {
+  margin-top: 2rem;
+  background-color: var(--white);
+  overflow-x: hidden;
+  font-family: "OUTFIT";
+}
+.whoweare-section {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap-reverse;
+  /* z-index: -1; */
+  background-color: var(--white);
+  margin: 0 2.5rem 0 2.5rem;
+}
+
+.left-section {
+  width: 50%;
+}
+.left-section img {
+  width: 70%;
+}
+
+@media screen and (max-width: 840px) {
+  .whoweare-section {
+    flex-wrap: wrap-reverse;
+    /* z-index: -1; */
+    background-color: var(--white);
+    margin: 0 1.5rem 0 1.5rem;
+  }
+  .right-section {
+    width: 100%;
+    justify-content: center;
+  }
+  .right-section {
+    /* margin-left: 0.1rem; */
+  }
+  .left-section {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .left-section img {
+    width: 70%;
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 416px) {
+  Header {
+    margin-top: 0.3rem;
+  }
+  .right-section {
+    margin-top: 3rem;
+  }
+  .left-section img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .left-section {
+    display: flex;
+    justify-content: center;
+  }
+  .left-section img {
+    width: 80%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

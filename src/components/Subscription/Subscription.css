@@ -1,0 +1,28 @@
+.subscription-container{
+  background-color: var(--wine);
+  padding:1rem 1rem;
+  font-family: 'arsenal';
+
+}
+.subscription{
+  background-color: var(--rose);
+  /* border:2px solid var(--wine); */
+  /* margin-bottom: 2rem; */
+  padding:2rem 2rem;
+  /* box-shadow: var(--wine) 0px 3px 8px; */
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+/* background-color: var(--ose); */
+box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.subs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Add some gap between email input and button */
+}
+
+.subscription:hover{
+  
+  box-shadow: var(--rose) 0px 3px 8px;
+}

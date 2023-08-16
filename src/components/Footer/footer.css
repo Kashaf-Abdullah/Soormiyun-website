@@ -1,0 +1,173 @@
+/* footer begins */
+footer {
+    background-color: var(--wine);
+    padding: 3em 0;
+    color: #fff !important;
+    font-family: "arsenal";
+    /* margin-top: 1em; */
+  }
+  footer a {
+    text-decoration: none;
+  }
+  .foot-icons h3 {
+    font-size: 40px;
+    color: var(--rose);
+    font-weight: 700;
+    text-align: center;
+  }
+  .foot-icon svg {
+    margin: 0 8px;
+    color: #fff;
+    font-size: 18px;
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+  }
+  
+  .foot-end {
+    text-align: center;
+    background-color: var(--rose);
+  }
+  .foot-img img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .foot-end {
+    color: var(--white, #fff);
+    text-align: center;
+    font-size: 14px;
+    font-family: "arsenal";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+  }
+  .foot-about {
+    position: relative;
+    /* top:10px */
+    /* top:25px */
+    margin-top: 4rem;
+  }
+  .foot-about ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .foot-about ul li a,
+  .foot-about ul li a:hover,
+  .foot-contact a,
+  .mmf-footer p {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:'arsenal';
+    font-weight: 400;
+  }
+  .footer-end{
+  overflow-y: hidden;
+  
+  }
+  
+  .foot-contact
+   {
+    height:100%;
+    overflow: hidden;
+  
+    height: 14rem;
+  overflow-y: hidden;
+  position: relative;
+  top: 60px;
+  }
+  .footer-contact-a {
+    gap: 5px;
+    /* margin-top: 8px; */
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-contact-a a {
+    color: var(--white);
+    text-decoration: none;
+    margin-left: 15px;
+    position: relative;
+   bottom:0px
+  }
+  .footer-contact-a i {
+    color: var(--darkgreen);
+  }
+  .footer-contact-a .circle-icon {
+    background: var(--white);
+    padding: 13px;
+    border-radius: 50%;
+  }
+  .foot-about h5,
+  .foot-contact h5 {
+    overflow: hidden;
+    /* margin: 2rem 0 2rem 0; */
+    margin-bottom: 22px;
+  }
+  .contact-info,.email-info{
+    display: flex;
+  flex-direction: column;
+  }
+  
+  .contact-info span:nth-of-type(1),.email-info span:nth-of-type(1){
+    font-family: 'ARSENAL';
+  }
+  .contact-footer{
+    position: relative;
+  top: 22px;
+  }
+  /* footer center */
+  
+  
+  .foot-end a{
+    text-decoration: none;
+    color:var(--white);
+    /* font-weight: bold; */
+  }
+  /* footer ends */
+  
+  @media screen and (max-width: 1203px) {
+    .footer-contact-a a {
+      margin-left: 5px;
+    }
+    .foot-icon a {
+      gap: 10px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 746px) {
+    .row {
+      text-align: center;
+      align-items: center;
+      gap: 2rem;
+    }
+    .footer-contact-a {
+      text-align: initial;
+      margin-left: 10px;
+     
+    }
+    .foot-about ul li a,
+    .foot-about ul li a:hover,
+    .foot-contact a,
+    .mmf-footer p {
+      font-weight: 500;
+      font-size: 17px;
+    }
+    .foot-about {
+      margin-top: 2rem;
+    }
+  
+    .footer-contact-a .circle-icon {
+      background: var(--white);
+      border-radius: 50%;
+      padding: 16px;
+      font-size: 18px;
+    }
+    .foot-contact{
+      top: 44px;
+    }
+    }
+  
+  

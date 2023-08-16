@@ -1,0 +1,106 @@
+.right-section {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.right-section-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-right: 0.6rem;
+  width: 100%;
+  font-family: "arsenal";
+}
+
+.right-section-txt span:nth-of-type(1) {
+  color: var(--wine);
+  font-weight: 600;
+  font-family: "ARSENALITALIC";
+  font-size: 24px;
+}
+.right-section-txt span:nth-of-type(2) {
+  font-size: 47px;
+  font-weight: 500;
+  font-family: "ARSENAL";
+  color: var(--black);
+  text-align: left;
+  /* letter-spacing: 2px; */
+  /* word-spacing: 4px; */
+}
+.right-section-txt span:nth-of-type(2)::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--wine);
+  left: 85px;
+  margin: 13px 0 13px 0;
+}
+.right-section-txt span:nth-of-type(3) {
+  color: var(--grey);
+  margin-bottom: 1rem;
+  font-family: "arsenal";
+}
+.right-section .checkmark .checkmark-txt {
+  font-size: 16px; /* modify to test */
+  margin-bottom: 0.5em;
+  list-style-type: none;
+  padding: 0.25em 0.88em 0 0.88em;
+  position: relative;
+  font-family: "arsenal";
+  overflow: hidden;
+  display: flex;
+  gap: 6px;
+}
+
+.checkmark-txt img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 2px;
+ 
+}
+
+@media screen and (max-width: 416px) {
+  .right-section {
+    width: 100%;}
+  .right-section .checkmark {
+    font-size: 16px; /* modify to test */
+    margin-bottom: 0.5em;
+    list-style-type: none;
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .right-section-txt span:nth-of-type(1) {
+    text-align: center;
+  }
+  .right-section-txt span:nth-of-type(2) {
+    font-size: 30px;
+    font-weight: 600;
+
+    color: black;
+    text-align: center;
+  }
+  .right-section-txt span:nth-of-type(2)::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: var(--green);
+    position: relative;
+    left: 150px;
+
+    margin: 13px 0 13px 0;
+    text-align: center;
+  }
+  .right-section-txt span:nth-of-type(3) {
+    color: var(--grey);
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}

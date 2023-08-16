@@ -1,0 +1,81 @@
+.Services-Section
+{
+    text-align: center;
+overflow-x: hidden;
+margin: 4rem 0 4rem 0;
+
+}
+.Services-Section h2{
+    font-size: 35px;
+    font-weight: bold;
+    color:var(--wine);
+    font-family: "ARSENALITALIC";
+}
+.Services-Section h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--wine);
+    left: 85px;
+    margin: 12px auto 8px auto;
+  }
+  
+.Services-Section p{
+    font-family:'arsenal';
+} 
+.Cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    margin: 3rem 0rem;
+}
+.Cards .card{
+    display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+width: 269px;
+height: 359px;
+margin: 4px;
+box-shadow: 0 3px 10px rgba(245, 81, 81, 0.2);
+border-radius: 13px;
+}
+.Cards h4{
+    color:var(--wine);
+    font-size: 20px;
+}
+
+.Cards h4::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: var(--wine);
+    left: 85px;
+    margin: 12px auto 0 auto;
+  }
+.Cards img{
+    width: 16rem;
+    height: 13rem;
+    border-radius: 18px;
+padding: 0.6rem;
+}
+
+
+
+@media screen and (max-width:406px){
+
+    .Services-Section h2{
+        font-size: 28px;
+        font-weight: bold;
+        
+        color:black;
+    }
+    .Services-Section{
+        margin: 0 0.5rem 0 0.5rem;
+    }
+    
+}

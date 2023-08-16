@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+  font-family:'ARSENAL';
+  src:url(.././public/Fonts/Arsenal-Bold.ttf);
+  
+}
+  
+  
+  @font-face {
+    font-family:'arsenal';
+    src:url(.././public/Fonts/Arsenal-Regular.ttf);
+
   }
+
+    @font-face {
+      font-family:'ARSENALITALIC';
+      src:url(.././public/Fonts/Arsenal-BoldItalic.ttf);
+      }
+
+   
+:root {
+	--silver: #CEBEBE;
+	--bone: #ECE2D0;
+	--black: #1D1D1D;
+	
+  --white:#ffffff;
+  --pale_dagwood:#D5B9B2;
+  --rose:#A26769;
+  --wine:#6D2E46;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

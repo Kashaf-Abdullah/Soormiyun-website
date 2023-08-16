@@ -1,0 +1,42 @@
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #D5B9B2;
+  
+    
+}
+.card-profile{
+    display: flex;
+    justify-content: space-between;
+    color:var(--wine);
+    font-weight: bold;
+   margin-bottom: 10px;
+   /* width:17rem; */
+font-size: 11px;
+}
+.card-profile-intro{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card-profile-img img{
+width:6rem;
+height:6rem;    
+margin: 0 0.4rem
+}
+.card-profile-name{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.card-profile{
+    /* gap:23px */
+}
+
+.tabs-main{
+ 
+margin-top: 5rem;
+}

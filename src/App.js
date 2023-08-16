@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {BrowserRouter as Router,Routes,Switch,Route} from 'react-router-dom';
+
+import Navbars from './components/Navbar/Navbars';
+import Home from './components/HOME/Home';
+import Contact from './components/Contact/Contact';
+import JoinUs from './components/JoinUs/JoinUs';
+
+import CombinedForm from './CombineForm';
+import CardsData from './components/CardsData/CardsData';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ 
+    <Router>
+    <Navbars/>
+   
+    <Routes>
+   
+    <Route path="/" element={<Home/>}></Route>
+   <Route path="/contactus" element={<Contact></Contact>}></Route>
+   
+   <Route path="/apply" element={<CombinedForm/>}></Route>
+   <Route path="/showall" element={<CardsData/>}></Route>
+   
+   
+   </Routes>
+   
+    </Router>
+   
   );
 }
 
