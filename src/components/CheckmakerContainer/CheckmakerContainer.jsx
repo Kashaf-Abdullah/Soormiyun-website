@@ -1,14 +1,11 @@
 import React, { useEffect } from "react";
 import "./checkmakercontainer.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
 import cm from "../../img/checkmarker.png";
 const CheckmakerContainer = (props) => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
+ 
+  
   return (
-    <div className="right-section" data-aos="fade-left">
+    <div className="right-section">
       <div className="right-section-txt">
         <span>{props.header}</span>
         <span>{props.heading}</span>

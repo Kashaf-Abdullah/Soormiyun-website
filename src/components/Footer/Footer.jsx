@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import "./footer.css";
 import mmf_logo from "../../img/logo.png";
+import email from "../../img/email.png";
+import phone from "../../img/phone.png";
 
 import {
   FaTwitter,
@@ -9,8 +11,7 @@ import {
   FaLinkedinIn,
   FaInstagram,
 } from "react-icons/fa";
-import Aos from "aos";
-import "aos/dist/aos.css";
+
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Footer = () => {
@@ -95,9 +96,14 @@ const Footer = () => {
             <div className="col-lg-3 col-md-4 col-sm-12 footer-end">
               <div className="foot-contact">
                 <h5>Contact Info</h5>
+
                 <div className="footer-contact-a">
                   <a href="tel:+9230786110110" className="contact-info">
-                  <span> Call us</span>
+                  <span> <div class="image-container">
+                  <div class="circle-background">
+                    <img src={email} alt="Image"/>
+                  </div>
+                   </div>Call us</span>
                   <span>+92 307 8611011</span>
                </a>
                   </div>
@@ -105,7 +111,11 @@ const Footer = () => {
                 <div className="footer-contact-a contact-footer">
                 <a href="mailto: info@mehfoozmustaqbil.org" className="email-info">
                     
-                    <span> Email Us</span>
+                    <span><div class="image-container">
+                    <div class="circle-background">
+                      <img src={phone} alt="Image"/>
+                    </div>
+                     </div>Email Us</span>
                     <span> soormiyun@gmail.com</span>
                   </a>
                 </div>

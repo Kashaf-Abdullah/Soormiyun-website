@@ -103,7 +103,8 @@ footer {
   .foot-contact h5 {
     overflow: hidden;
     /* margin: 2rem 0 2rem 0; */
-    margin-bottom: 22px;
+    margin-bottom: 16px;
+   
   }
   .contact-info,.email-info{
     display: flex;
@@ -126,6 +127,46 @@ footer {
     /* font-weight: bold; */
   }
   /* footer ends */
+  
+
+
+  /* email and contact logo */
+  .image-container {
+    position: relative;
+    display: inline-block;
+    margin-right: 6px;
+  }
+  
+  .circle-background {
+    width: 30px;
+    height: 30px;
+    background-color:#1D1D1D ; /* Choose your desired background color */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+.footer-contact-a  img {
+    max-width: 50%;
+    max-height: 50%;
+  }
+  
+  .icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #ffffff; /* Choose your desired icon background color */
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .fa-icon {
+    font-size: 14px; /* Adjust the icon size as needed */
+    color: #3498db; /* Choose your desired icon color */
+  }
   
   @media screen and (max-width: 1203px) {
     .footer-contact-a a {

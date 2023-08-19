@@ -79,7 +79,7 @@ const Subscription = () => {
                 border: '2px solid #6D2E46',
               }}
               type="submit"
-            >Yes, Signup for emails
+            >Subscribe
             </Button>
           </div>
         </div>

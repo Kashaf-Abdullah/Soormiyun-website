@@ -4,16 +4,11 @@ import React, { useEffect } from "react";
 import "./mission.css";
 import campaign from "../../img/4.png";
 import CheckmakerContainer from "../CheckmakerContainer/CheckmakerContainer";
-import Aos from "aos";
 
-import "aos/dist/aos.css";
 const Mission = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
   return (
     <div className="mission" id="mission-section">
-      <div className="mission-section container" data-aos="fade-right">
+      <div className="mission-section container">
         <CheckmakerContainer
           header="Our Mission"
           heading="Empowering Sindhi Women for Equality and Success"

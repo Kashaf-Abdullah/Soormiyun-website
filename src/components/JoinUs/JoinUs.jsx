@@ -6,8 +6,6 @@ import { app, firestore } from "../auth";
 import { setDoc, doc, serverTimestamp } from "firebase/firestore";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 const JoinUs = () => {
   const [selectedCategory, setSelectedCategory] = useState("");
@@ -21,9 +19,7 @@ const JoinUs = () => {
 
   const [isLoading, setLoading] = useState(false);
 
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
+
 
   const handleCategoryChange = (e) => {
     setSelectedCategory(e.target.value);
@@ -143,9 +139,9 @@ const JoinUs = () => {
   };
 
   return (
-    <div className="joinus-Section" id="joinus-section" data-aos="fade-up">
+    <div className="joinus-Section" id="joinus-section">
       <div className="joinus container">
-        <div className="left-joinus" data-aos="fade-right">
+        <div className="left-joinus" >
           <img src={joinus} alt="Join Us" />
         </div>
         <div className="right-joinus" data-aos="fade-left">

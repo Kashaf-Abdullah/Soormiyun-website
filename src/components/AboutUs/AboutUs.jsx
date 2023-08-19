@@ -7,7 +7,7 @@ const AboutUs = () => {
     <div className="aboutUs-Section" >
       <div className="aboutus-content container">
 
-        <h1 className="aboutus-Title title" data-aos="fade-up">
+        <h1 className="aboutus-Title title" >
           <span>Soormiyun </span>
           <span> Community For </span>
           <span>Sindhi Women</span>

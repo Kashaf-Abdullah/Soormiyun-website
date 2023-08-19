@@ -2,14 +2,28 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { MenuList } from "./MenuList";
 import './Navbaaar.css'
+
+
+
+
 import logo from '../../img/logo.png'
 
 const Navbars = () => {
   const [clicked, setClicked] = useState(false);
+
+  const closeMenu = () => {
+    setClicked(false);
+  };
+
   const menuList = MenuList.map(({ url, title }, index) => {
     return (
       <li key={index}>
-        <NavLink exact to={url} activeClassName="active">
+        <NavLink
+          exact
+          to={url}
+          activeClassName="active"
+          onClick={closeMenu}
+        >
           {title}
         </NavLink>
       </li>
@@ -23,7 +37,7 @@ const Navbars = () => {
   return (
     <nav>
       <div className="logo">
-   <img src={logo}></img>
+        <img src={logo} alt="Logo" />
       </div>
       <div className="menu-icon" onClick={handleClick}>
         <i className={clicked ? "fa fa-times" : "fa fa-bars"}></i>

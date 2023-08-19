@@ -1,5 +1,5 @@
-nav {
-overflow-x: hidden;
+  nav {
+    overflow-x: hidden;
   /* margin-bottom: 6rem; */
     background: var(--silver);
     padding: 20px;
@@ -9,8 +9,8 @@ overflow-x: hidden;
     /* position: relative; */
    position: inherit;    
    z-index: 99;
-    width:100%;
-font-family: 'arsenal';
+   width:100%;
+   font-family: 'arsenal';
 }
   
   .fas {
@@ -32,21 +32,17 @@ font-family: 'arsenal';
   }
   
   .logo {
-    font-weight: 600;
-    font-size: 25px;
-    color: var(--wine);
-  }
-.logo img{
-  position: absolute;
-  width: 6.5rem;
-  /* height: 6.5rem; */
-  background-color: white;
-  left: 3rem;
-  /* margin-top: 1rem; */
-  border-radius: 0rem 0rem 1rem 1rem;
-  z-index:1000;
-  top:1px
-}  
+  position: relative; /* Ensure the navigation bar is the positioning context */
+  display: flex;
+  align-items: center;
+}
+
+ .logo img {
+  position: absolute; /* Position the logo absolutely within the .logo container */
+  width: 4.5rem;
+  left: 20px;
+  z-index: 1000;
+}
   .logo font {
     color: var(--bone);
   }
@@ -107,7 +103,7 @@ font-family: 'arsenal';
     .logo img{
       width: 4.1rem;
       border-radius: 0rem 0rem 1rem 1rem;
-      position: fixed;
+     
     }
     .menu-icon {
       display: block;

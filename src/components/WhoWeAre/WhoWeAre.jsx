@@ -2,17 +2,13 @@ import React, { useEffect } from "react";
 import "./whoweare.css";
 import frame from "../../img/img1.jpg";
 import CheckmakerContainer from "../WhoWeAre/WhoWeAre";
-import Aos from "aos";
-import "aos/dist/aos.css";
+
 const WhoWeAre = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
 
   return (
-    <div className="Whoweare" id="whoweare-section" data-aos="fade-up">
+    <div className="Whoweare" id="whoweare-section">
       <div className="whoweare-section container">
-        <div className="left-section" data-aos="fade-right">
+        <div className="left-section" >
           <img src={frame}></img>
         </div>
         <CheckmakerContainer

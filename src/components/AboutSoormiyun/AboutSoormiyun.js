@@ -4,16 +4,13 @@ import React, { useEffect } from 'react'
 import SympImg from '../../img/4.png'
 import SymImg2 from '../../img/support.PNG'
 import './aboutsoormiyun.css'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+
 const AboutSoormiyun = () => {
-  useEffect(()=>{
-    Aos.init({ duration:2000})
- },[])
+ 
   return (
     <>
-    <div className='SoormiyunAbout-Section' data-aos="fade-up">
-      <div className='left-soormyunaboutSections' data-aos="fade-left">
+    <div className='SoormiyunAbout-Section'>
+      <div className='left-soormyunaboutSections' >
   <h2>
   <span className='aboutus-heading'>ABOUT US</span>
   </h2>
@@ -30,7 +27,7 @@ const AboutSoormiyun = () => {
       <div className='img1-soormyunaboutSections' data-aos="fade-down">
       <img src={SympImg}></img>
       </div>
-      <div className='img2-soormyunaboutSections' data-aos="fade-down">
+      <div className='img2-soormyunaboutSections' >
       <img src={SymImg2}></img>
       </div>
       

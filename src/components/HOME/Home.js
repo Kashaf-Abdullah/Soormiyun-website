@@ -9,12 +9,11 @@ import AboutUs from '../AboutUs/AboutUs'
 import Footer from '../Footer/Footer'
 
 import SoormiyunTagline from '../SoormiyunTagline/SoormiyunTagline'
-
-import Slider from '../Events/Events'
 import Mission from '../Mission/Mission'
 import Services from '../Services/Services'
 import AboutSoormiyun from '../AboutSoormiyun/AboutSoormiyun'
 import Subscription from '../Subscription/Subscription'
+import CustomSlider from '../Events/Events'
 
 const Home = () => {
   return (
@@ -24,8 +23,7 @@ const Home = () => {
     <Mission/>
     <AboutUs/>
     <AboutSoormiyun/>
-    <Slider/>
-    <SoormiyunTagline/>
+<CustomSlider/>    <SoormiyunTagline/>
     <Services/>
     <Subscription/>
     <Footer/>

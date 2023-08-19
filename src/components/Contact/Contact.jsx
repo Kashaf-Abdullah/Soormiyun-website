@@ -12,8 +12,7 @@ import {
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import Aos from "aos";
-import "aos/dist/aos.css";
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -139,14 +138,12 @@ const Contact = () => {
     return isValid;
   };
 
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
+
 
   return (
-    <div className="contact-Section" id="contact-section" data-aos="fade-up">
+    <div className="contact-Section" id="contact-section" >
       <div className="contact container">
-        <div className="left-contact" data-aos="fade-left">
+        <div className="left-contact" >
           <div className="left-contactTxt">
             <span>Contact Us</span>
             <span>
